@@ -1,0 +1,11 @@
+<app-header></app-header>
+<app-face-snap *ngFor ="let faceSnap of faceSnaps" [faceSnap]="faceSnap"></app-face-snap>
+<header>
+  <h1>snapface</h1>
+    <nav>
+        <a routerLink="" routerLinkActive="active">home</a>
+        <a routerLink="faceSnaps" routerLinkActive="active">FaceSnaps</a>
+        <a routerLink="facesnaps">Continuer vers Snapface</a>
+    </nav>
+</header>
+<router-outlet></router-outlet>

@@ -1,0 +1,64 @@
+.face-snap-card {
+    box-sizing: border-box;
+    width: 50%;
+    margin: 20px auto;
+    padding: 10px 30px;
+    box-shadow: rgb(211, 211, 211) 4px 4px 20px;
+    img {
+    width: 100%;
+    }
+    h2 {
+    margin-bottom: 0;
+    }
+    p {
+    font-weight: 300;
+    font-size: 16px;
+    }
+    button {
+    background-color: red;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    border: none;
+    box-shadow: rgb(191, 37, 37) 3px 3px 7px;
+    margin-right: 20px;
+    outline: none;
+    font-size: 14px;
+    font-weight: 500;
+    a:active {
+    transform: translate(1px, 1px);
+    box-shadow: rgb(0, 0, 211) 0 0 5px;
+    }
+    }
+    }
+
+
+
+
+    .landing-block { 
+        position: absolute; 
+        top: 50%;
+        left: 100%;
+        transform: translate(-50%, -50%);
+        }
+        .landing-links {
+        width: 100%;
+        text-align: center;
+        }
+        a{
+            margin: 0 20px;
+            color: #a82828;
+            text-decoration: none;
+            text-decoration: double;
+            &:hover 
+            {text-decoration: double;
+            }}
+            .active {
+            color: #fa0404;
+            text-decoration: underline;
+            }   
+            h1{
+                text-align: center;
+                border-width:15px;
+                border-style:dotted;
+                 border-color:black;
+            }

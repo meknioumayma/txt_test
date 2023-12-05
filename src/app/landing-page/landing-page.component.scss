@@ -1,0 +1,19 @@
+.landing-block { 
+    position: absolute; 
+    top: 100%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    }
+    .landing-links {
+    width: 100%;
+    text-align: center;
+    }
+    a{
+        margin: 0 20px;
+        color: #a82828;
+        text-decoration: none;
+        &:hover {text-decoration: underline;}}
+        .active {
+        color: #fa0404;
+        text-decoration: underline;
+        }    
